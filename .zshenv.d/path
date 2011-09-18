@@ -1,0 +1,15 @@
+PATH="/bin:${PATH}"
+PATH="/sbin:${PATH}"
+
+PATH="/usr/bin:${PATH}"
+PATH="/usr/sbin:${PATH}"
+
+PATH="/usr/local/bin:${PATH}"
+PATH="/usr/local/sbin:${PATH}"
+
+PATH="${HOME}/local/bin:${PATH}"
+PATH="${HOME}/local/sbin:${PATH}"
+
+PATH="${HOME}/bin:${PATH}"
+
+export PATH

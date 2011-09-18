@@ -1,0 +1,46 @@
+[alias]
+	ba = branch -a
+	br = branch
+	ca = commit --all
+	ci = commit
+	co = checkout
+	dc = diff --color
+	ds = diff --stat
+	dw = diff --color --word-diff
+	ls = log --stat --decorate
+	st = status
+
+[branch]
+	autosetupmerge = true
+
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+
+[color "diff"]
+	commit = green
+	frag = green
+	meta = green
+	new = cyan
+	old = red
+	plain = white
+	whitespace = yellow yellow
+
+[color "status"]
+	added = cyan
+	changed = yellow
+	untracked = red
+
+[core]
+	editor = emacs -nw
+
+[push]
+	default = matching
+
+[user]
+	name = Mak Kolybabi
+	email = mak@kolybabi.com
+
+[branch "master"]
+	rebase = true

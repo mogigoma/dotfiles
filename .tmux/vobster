@@ -1,0 +1,2 @@
+tmux -u new  -d  -s $session -n IM "forever -n 10 -t 60 irssi"
+tmux -u attach -t $session

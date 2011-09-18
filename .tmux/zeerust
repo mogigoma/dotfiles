@@ -1,0 +1,2 @@
+tmux -u new  -d  -s $session -n Torrents "forever -n 10 -t 60 rtorrent"
+tmux -u attach -t $session

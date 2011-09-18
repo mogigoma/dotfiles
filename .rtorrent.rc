@@ -1,0 +1,20 @@
+max_peers		= 500
+max_uploads		= 50
+download_rate		= 0
+upload_rate		= 40
+#schedule		= ratio,0,60,stop_on_ratio=1
+
+schedule		= ip,0,1800,ip=zeerust.nepharia.org
+port_range		= 9990-9990
+port_random		= yes
+
+encryption		= allow_incoming,try_outgoing,enable_retry
+
+directory		= /archive/tmp
+session			= /home/mak.kolybabi/.rtorrent
+schedule		= watch,5,5,load_start=/archive/torrents/*.torrent
+schedule		= untie,5,5,stop_untied=
+
+check_hash		= yes
+
+dht			= auto

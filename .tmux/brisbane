@@ -1,0 +1,6 @@
+tmux -u new  -d  -s $session   -n Vobster "forever -n 10 -t 60 ssh vobster.nepharia.org"
+tmux -u neww -dk -t $session:1 -n Zeerust "forever -n 10 -t 60 ssh zeerust.lan"
+tmux -u neww -dk -t $session:2 -n Email   "forever mutt"
+tmux -u neww -dk -t $session:3 -n Feeds   "forever newsbeuter"
+tmux -u neww -dk -t $session:4 -n Music   "forever ncmpcpp"
+tmux -u attach -t $session
