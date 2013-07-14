@@ -36,12 +36,6 @@ alias la='ll -A'
 alias du='du -csh'
 alias df='df -h'
 
-alias pstree='pstree -hc'
-
 alias grep='grep --color --recursive'
 
-alias emerge='echo "(Last sync was on `cat /usr/portage/metadata/timestamp`)"; sudo emerge -av'
-
-alias mc='mc -d'
 alias m='mplayer'
-alias e='editify'
