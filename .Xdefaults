@@ -1,9 +1,8 @@
 xterm*title:			Terminal
 xterm*background: 		black
-xterm*foreground: 		green
+xterm*foreground: 		white
 xterm*geometry:			177x67+0+0
 xterm*transparent:		false
 xterm*scrollBar:		false
-xterm*cutchars:			`"'|*,;<>()[]{}
 xterm*saveLines:		1000
 xterm*eightBitInput:            false
